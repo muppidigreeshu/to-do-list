@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', () => {
     const todoForm = document.getElementById('todoForm');
     const todoInput = document.getElementById('todoInput');
@@ -58,4 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+=======
+// script.js
+
+// Example of adding interactive functionality with JavaScript (optional)
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => {
+        card.classList.toggle('flipped');
+    });
+>>>>>>> 72ccaa668643394b1e2cbdafa627636f40842240
 });
